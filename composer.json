@@ -1,0 +1,17 @@
+{
+    "scripts": {
+        "post-package-install": [
+            "echo abc1"
+        ],
+        "post-install-cmd": [
+            "echo abc2"
+        ],
+        "post-autoload-dump": [
+              "echo abc3"
+
+        ],
+        "post-create-project-cmd": [
+              "echo abc4"
+        ]
+    }
+}
